@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Gnome Mac Gestures
+Comment=Enable Mac-style trackpad gestures
+Keywords=trackpad;touchpad;gestures;mac;
+Exec=gnome-mac-gestures-settings
+Icon=input-touchpad
+Categories=Settings;HardwareSettings;

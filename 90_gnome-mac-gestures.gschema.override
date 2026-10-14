@@ -1,0 +1,2 @@
+[org.gnome.shell]
+enabled-extensions=['gnome-mac-gestures@tayvee-create.github.io']

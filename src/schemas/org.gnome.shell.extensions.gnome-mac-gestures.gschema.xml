@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.gnome-mac-gestures" path="/org/gnome/shell/extensions/gnome-mac-gestures/">
+    <key name="enabled" type="b">
+      <default>false</default>
+      <summary>Enable mac gestures</summary>
+      <description>Apply Mac trackpad defaults and Mac-style multi-finger gestures.</description>
+    </key>
+    <key name="saved-touchpad" type="a{sv}">
+      <default>{}</default>
+      <summary>Touchpad settings saved before mac gestures were enabled</summary>
+      <description>Restored when mac gestures are turned off.</description>
+    </key>
+  </schema>
+</schemalist>

@@ -1,0 +1,15 @@
+Package: gnome-mac-gestures
+Version: 1.0.0
+Architecture: all
+Maintainer: tayvee-create <239965638+tayvee-create@users.noreply.github.com>
+Depends: gnome-shell (>= 48), libnotify-bin
+Conflicts: mac-gestures
+Replaces: mac-gestures
+Homepage: https://github.com/tayvee-create/gnome-mac-gestures
+Section: gnome
+Priority: optional
+Description: Mac-style trackpad gestures for GNOME
+ Adds an "Enable mac gestures" toggle (Quick Settings and its own settings
+ window) that turns on tap to click, two-finger right-click, natural
+ scrolling, pinch with thumb and three fingers for the app grid, and spread
+ to show the desktop.

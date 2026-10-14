@@ -1,0 +1,12 @@
+#!/bin/sh
+# Opens the Gnome Mac Gestures settings, enabling the extension first if needed.
+UUID=gnome-mac-gestures@tayvee-create.github.io
+
+if ! gnome-extensions info "$UUID" >/dev/null 2>&1; then
+    notify-send -i input-touchpad "Gnome Mac Gestures" \
+        "Log out and back in once to finish installing Gnome Mac Gestures."
+    exit 1
+fi
+
+gnome-extensions enable "$UUID"
+exec gnome-extensions prefs "$UUID"

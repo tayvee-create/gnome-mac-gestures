@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+
+if [ "$1" = "configure" ]; then
+    echo "Gnome Mac Gestures installed. Log out and back in, then turn on Mac Gestures in Quick Settings (top right)."
+fi
